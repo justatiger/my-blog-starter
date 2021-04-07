@@ -83,10 +83,10 @@ export const pageQuery = graphql`
           title
           description
           featuredImage {
-+            childImageSharp {
-+              gatsbyImageData(width: 800)
-+            }
-+          }
+            childImageSharp {
+              gatsbyImageData(width: 800)
+            }
+          }
         }
       }
     }
