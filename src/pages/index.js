@@ -47,7 +47,7 @@ const BlogIndex = ({ data, location }) => {
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
-                
+                <GatsbyImage image={getImage(post.frontmatter.featuredImage)} alt={post.frontmatter.title} />
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
