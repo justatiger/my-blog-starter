@@ -44,5 +44,5 @@ models:
         name: date
       - type: text
         name: description
-+      - type: image
-+        name: featuredImage
+      - type: image
+        name: featuredImage
