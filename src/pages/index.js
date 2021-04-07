@@ -86,7 +86,7 @@ export const pageQuery = graphql`
               childImageSharp {
                   gatsbyImageData(width: 800)
               }
-            }
+          }
         }
       }
     }
